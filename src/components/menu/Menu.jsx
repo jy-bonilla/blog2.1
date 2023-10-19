@@ -12,70 +12,8 @@ const Menu = () => {
             <MenuPosts withImage={false} />
             <h2 className={styles.subtitle}>Discovered by topic</h2>
             <h1 className={styles.title}>Categories</h1>
-            <div className={styles.categoryList}>
-                <Link href="/blog?cat=style"
-                    className={`${styles.categoryItem}${styles.style}`}
-                >
-                    Style
-                </Link>
-                <Link href="/blog?cat=style"
-                    className={`${styles.categoryItem}${styles.style}`}
-                >
-                    Tech
-                </Link>
-                <Link href="/blog?cat=style"
-                    className={`${styles.categoryItem}${styles.style}`}
-                >
-                    Travel
-                </Link>
-            </div>
+            
             <h2 className={styles.subtitle}>Chosen by the editor</h2>
-            <h1 className={styles.title}>Editors Pick</h1>
-            <div className={styles.items}>
-                <Link href="/" className={styles.item}>
-                    <div className={styles.textContainer}>
-                        <span className={`${styles.category} ${styles.travel}`}>
-                            Travel
-                        </span>
-                        <h3 className={styles.postTitle}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </h3>
-                        <div className={styles.detail}>
-                            <span className={styles.userName}>Jon Doe</span>
-                            <span className={styles.date}> - 10.16.23</span>
-                        </div>
-                    </div>
-                </Link>
-                <Link href="/" className={styles.item}>
-                    <div className={styles.textContainer}>
-                        <span className={`${styles.category} ${styles.food}`}>
-                            Food
-                        </span>
-                        <h3 className={styles.postTitle}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </h3>
-                        <div className={styles.detail}>
-                            <span className={styles.userName}>Jon Doe</span>
-                            <span className={styles.date}> - 10.16.23</span>
-                        </div>
-                    </div>
-                </Link>
-                <Link href="/" className={styles.item}>
-                    <div className={styles.textContainer}>
-                        <span className={`${styles.category} ${styles.tech}`}>
-                            Tech
-                        </span>
-                        <h3 className={styles.postTitle}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </h3>
-                        <div className={styles.detail}>
-                            <span className={styles.userName}>Jon Doe</span>
-                            <span className={styles.date}> - 10.16.23</span>
-                        </div>
-                    </div>
-                </Link>
-            </div>
-            <h2 className={styles.subtitle}>Choosen by the editor</h2>
             <h1 className={styles.title}>Editors Pick</h1>
             <MenuPosts withImage={true} />
         </div>
