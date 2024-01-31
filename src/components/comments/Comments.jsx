@@ -1,5 +1,6 @@
-import styles from './comments.module.css'
+import styles from './comments.module.css';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Comments = () => {
 
@@ -13,11 +14,11 @@ const Comments = () => {
                     <button className={styles.button}>Send</button>
                 </div>
             ) : (
-                <Link href="/login">Login to write a commment</Link> >
+                <Link href="/login">Login to write a commment</Link>
             )}
             <div className={styles.comments}>
                 <div className={styles.comment}>
-                    <div className={StyleSheet.user}>
+                    <div className={styles.user}>
                         <Image
                             src="/p1.jpeg"
                             alt=""

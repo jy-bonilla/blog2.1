@@ -1,4 +1,4 @@
-import style from './singlePage.module.css'
+import styles from './singlePage.module.css'
 import Menu from "@/components/menu/Menu"
 import Image from 'next/image'
 import Comments from '@/components/comments/Comments'
@@ -7,7 +7,7 @@ const Singlepage = () => {
     return (
         <div className={styles.container}>
             <div className={styles.infoContainer}>
-                <div className={textContainer}>
+                <div className={styles.userTextContainer}>
                     <h1> Lorem ipsum dolor sit amet</h1>
                     <div className={styles.user}>
                         <div className={styles.userImageContainer}>
