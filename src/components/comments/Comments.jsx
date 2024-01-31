@@ -22,8 +22,8 @@ const Comments = () => {
                         <Image
                             src="/p1.jpeg"
                             alt=""
-                            width=""
-                            height=""
+                            width={50}
+                            height={50}
                             className={styles.image}
                         />
                         <div className={styles.userInfo}>
